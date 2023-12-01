@@ -14,6 +14,11 @@ This project utilizes Latent Dirichlet Allocation (LDA) to uncover topics within
 - Term Topic Matrix and Document Topic Matrix
 - Customizable Parameters
 
+- **Topic Modeling with Latent Dirichlet Allocation (LDA):** Includes Jupyter notebooks and scripts demonstrating LDA implementation to identify latent topics within textual data, yielding a Term Topic Matrix and Document Topic Matrix
+- **MeSH and SNOMED Integration:** Python code integrates MeSH and SNOMED APIs for retrieving medical descriptors related to terms used in the corpus.
+- **Data Processing and Analysis:** Encompasses data preprocessing, model training, and analysis pipelines tailored for medical term analysis and topic modeling.
+- **Findings and Results:** Presents visualizations, insights, and findings obtained from analyzing medical texts and LDA topic modeling outputs.
+
 ## Requirements
 
 - Python 
