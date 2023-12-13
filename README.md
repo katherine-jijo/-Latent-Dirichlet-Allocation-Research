@@ -5,7 +5,7 @@
 
 ## Introduction
 
-# This research is in partnership with Northwell Health, New York State's largest healthcare provider and private employer. It invites engagement in the exploration of unstructured medical data, intending to reveal latent patterns and unveil critical insights that promise to enrich our understanding of healthcare communication.
+## This research is in partnership with Northwell Health, New York State's largest healthcare provider and private employer. It invites engagement in the exploration of unstructured medical data, intending to reveal latent patterns and unveil critical insights that promise to enrich our understanding of healthcare communication.
 
 Welcome to the Medical Corpus Topic Modeling project, an exploratory endeavor at the intersection of healthcare informatics and Natural Language Processing (NLP). This initiative is dedicated to the systematic examination and deciphering of complex, unstructured medical data to unveil latent patterns and significant insights.
 
