@@ -2,21 +2,40 @@
 
 # Medical Corpus Topic Modeling
 
-
-## Introduction
-
 ## This research is in partnership with Northwell Health, New York State's largest healthcare provider and private employer. It invites engagement in the exploration of unstructured medical data, intending to reveal latent patterns and unveil critical insights that promise to enrich our understanding of healthcare communication.
 
-Welcome to the Medical Corpus Topic Modeling project, an exploratory endeavor at the intersection of healthcare informatics and Natural Language Processing (NLP). This initiative is dedicated to the systematic examination and deciphering of complex, unstructured medical data to unveil latent patterns and significant insights.
+### Abstract:
+The exponential surge in unstructured healthcare data presents a challenge in extracting actionable insights for healthcare professionals. This study employs Artificial Intelligence (AI), Machine Learning (ML), and Natural Language Processing (NLP) to uncover latent topical features crucial for informing Healthcare Professionals.
 
-At its core, this project harnesses the power of Latent Dirichlet Allocation (LDA) as a vehicle for hidden themes within extensive collections of medical texts. Augmented by the integration of Medical Subject Headings (MeSH) and Systematized Nomenclature of Medicine (SNOMED) APIs. The primary objective is to discern latent topics within medical corpora (ex: nurses notes), discern underlying themes, and discern the intricate associations among medical terminologies.
+### - Research Questions - 
+Part I:
+* Can Latent Dirichlet Allocation (LDA) unveil latent topical mixtures in medical abstracts?
+* Can overlaying medical ontologies enrich these latent topics, revealing new relationships and insights?
 
-In the context of healthcare's vast and unstructured textual landscape, the pursuit of revealing latent patterns assumes paramount importance. This endeavor seeks not only to analyze but also to comprehend and illuminate the intricate web of medical terminologies, thereby enhancing our understanding of the complexity inherent in medical discourse.
+Part II:
+* Can enriched medical abstracts support a guided search system for medical professionals, ensuring a common vocabulary?
 
-Through methodical data preprocessing, robust model training, and comprehensive analysis pipelines, this research aims to reveal the subtle nuances embedded within medical narratives. Visual representations, findings, and detailed analyses serve as conduits for unraveling obscured patterns and illuminating previously obscured facets of healthcare narratives.
+### Background:
+Healthcare records often lack standardized terminology, leading to potential delays or gaps in patient care. This research aims to harmonize medical terms through AI-ML models trained on medical abstracts. The integration of controlled vocabularies over these models strives to align healthcare professionals' terminologies, enabling semantic search capabilities for better patient outcomes.
 
+### Objectives:
+* Train an AI/ML model using LDA to discover latent topics within medical abstracts.
+* Overlay MeSH & SNOMED medical ontologies to create weighted term-topic and document-topic matrices.
+* Assess the efficacy of AI/ML-driven approaches in improving healthcare information exploration.
 
+### Methods: Data Collection and Sources: 
+* Dataset: 14,442 medical abstracts sourced from diverse healthcare repositories.
+* LDA for Discovering Latent Topics: Tokenization into unigrams/bigrams, TFIDF Count Vectorizer, and hyperparameter-tuned LDA modeling.
+* Integration of MeSH and SNOMED API: Python program integrating APIs to enrich the term-topic matrix.
 
+### Findings: 
+* Enhanced Relevance: AI/ML techniques enriched the term-topic matrix with insights from MeSH and SNOMED APIs.
+* Contextual Importance: Created a medical information matrix enriched with semantic meaning, facilitating a common understanding of medical terminology's contextual relevance.
+
+### Implications
+--- This research highlights the potential of advanced AI/ML methodologies in healthcare informatics, especially in: ---
+* Information Retrieval: Enhancing retrieval within healthcare by overlaying medical ontologies.
+* Common Language: Enabling a common language for clinical decision-making, research, and education within healthcare.
 
 ## Features
 
